@@ -6,9 +6,9 @@ SHARED_UDP_PORT = 4210
 sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)  # Internet  # UDP
 sock.connect((UDP_IP, SHARED_UDP_PORT))
 # Credentials
-client_id = "dcb1989bb07046c6b6415db05c378309"
-client_secret = "696e193110a044eb8ad572756ba9afa9"
-username = "n7y40usd3a4f85rxptavdxl91"
+client_id = "ID"
+client_secret = "SECRET"
+username = "USERNAME"
 
 
 def login_to_spotify():
