@@ -19,13 +19,12 @@
 #include "esp_gap_bt_api.h"
 #include "esp_a2dp_api.h"
 #include "esp_avrc_api.h"
-
-////
-
 #include <WebServer.h>
 #include <WiFi.h>
 #include <WiFiUdp.h>
 #include <Keypad.h>
+#include <LiquidCrystal_I2C.h>
+#include <Wire.h>
 //set up to connect to an existing network (e.g. mobile hotspot from laptop that will run the python code)
 const char* ssid = "WIFINAME";
 const char* password = "WIFIPASSWORD";
@@ -33,21 +32,14 @@ WiFiUDP Udp;
 unsigned int localUdpPort = 4210;  //  port to listen on
 char incomingPacket[255];  // buffer for incoming packets
 char song[255];
-///
-
-
-#include <LiquidCrystal_I2C.h>
-#include <Wire.h>
-
 #define SDA 13                    //Define SDA pins
 #define SCL 14                    //Define SCL pins
-////
 #define CONFIG_I2S_LRCK_PIN 25
 #define CONFIG_I2S_BCK_PIN  26
 #define CONFIG_I2S_DATA_PIN 22
 
 BluetoothSerial SerialBT;
-//
+
 
 LiquidCrystal_I2C lcd(0x27,16,2); 
 void setup() {
