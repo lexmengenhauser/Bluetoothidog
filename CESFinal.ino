@@ -27,8 +27,8 @@
 #include <WiFiUdp.h>
 #include <Keypad.h>
 //set up to connect to an existing network (e.g. mobile hotspot from laptop that will run the python code)
-const char* ssid = "APlaceToDequeue";
-const char* password = "elsebeer++";
+const char* ssid = "WIFINAME";
+const char* password = "WIFIPASSWORD";
 WiFiUDP Udp;
 unsigned int localUdpPort = 4210;  //  port to listen on
 char incomingPacket[255];  // buffer for incoming packets
@@ -141,15 +141,10 @@ void loop(){
       lcd.print(song);
       delay(1000);
 
-      //readPacket = true;
+  
     } 
   }
-  // once we know where we got the inital packet from, send data back to that IP address and port
-  //Udp.beginPacket(Udp.remoteIP(), Udp.remotePort());
-  
-//Udp.print("HEELO?????");
-  //Udp.endPacket();
-  //delay(1000);
+
   ;  
  
 }
