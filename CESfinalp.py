@@ -37,11 +37,7 @@ def get_song_name():
 	sock.send(title_of_song.encode())
 
 
-# Main program starts here
 
-# Login to spotify
-#spotify = login_to_spotify()
-#get_song_name()
 spotifyy = login_to_spotify()
 def loop():
 	get_song_name()
