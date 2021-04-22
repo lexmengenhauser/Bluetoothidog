@@ -29,7 +29,7 @@ Wiring:
   
 How To: 
   1. Wire as stated above
-  2. Download the code provided and fill your wifi and spotify information where it is marked
+  2. Download the code provided and fill your wifi and spotify information where it is marked (wifi in cesfinal.ino, Spotify in cesfinal.py)
   3. Use the serial monitor to print the correct IP adress for the esp32 and fill this in wher marked in the code
   4. Be sure to install Spotipy (pip3 install spotipy)
   5. Upload the code to the esp32 and connect your phone via bluetooth to esp32
