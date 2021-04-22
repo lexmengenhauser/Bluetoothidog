@@ -36,3 +36,7 @@ How To:
   5. Upload the code to the esp32 and connect your phone via bluetooth to esp32
   6. Start up your favorite song on spotify and you should be all set!
   7. To have the song name display on the screen, run the python code provided
+
+
+![IMG_5969](https://user-images.githubusercontent.com/46966950/115735030-264d9400-a358-11eb-9ba1-a9475ff425a8.jpg)
+
