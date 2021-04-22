@@ -12,6 +12,7 @@ Hardware Used:
   
   
 Wiring: 
+
   Audio Converter:
     1. Connect GND to GND
     2. VCC to GPIO 27
