@@ -1,6 +1,6 @@
 # Bluetooth iDog
 
-video Link:
+Video Link: https://youtu.be/caRnsafZBII
 
 Description: This project uses the esp32 to convert the idog into a bluetooth speaker. Additioanlly, you can connect your Spotify account so that the display screen shows the title of the song you are listening to. 
 
